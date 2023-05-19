@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\elefa\OneDrive\Documentos\GitHub\loginPage_2.0\stylesheet.css">
     <title>Login | Let's log in my bro!</title>
 </head>
 <body>
-    
+    <div id="caixa-login">
+        <aside>
+            <img src="https://cdn.pixabay.com/photo/2016/02/17/15/37/laptop-1205256_1280.jpg" alt="Laptop on a white table" id="foto-principal">
+        </aside>
+        <main id="main-form">
+            <h1 id="loginScreenTitle">Welcome to Fuy!</h1>
+            <form method="post">
+                <label for="first-name" id="first-name-label">First name: </label>
+                <input type="text" id="first-name" name="first-name"/>
+
+                <label for="last-name" id="last-name-label">Last name: </label>
+                <input type="text" id="last-name" name="last-name"/>
+
+                <label for="password" id="password-label">Password: </label>
+                <input type="password" id="password" name="password" required minlength="8"/>
+
+                <button type="submit" href="#">Register!</button>
+            </form>
+        </main>
+    </div>
 </body>
 </html>
