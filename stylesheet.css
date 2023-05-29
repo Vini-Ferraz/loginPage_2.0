@@ -8,12 +8,11 @@
 }
 
 body {
-    background-color: #181818;
+    background: linear-gradient(45deg, #111111, #040550)
 }
 
 #caixa-login {
     width: 75vw;
-    height: 90vh;
     margin: auto;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -22,13 +21,54 @@ body {
 }
 
 #foto-principal {
-    width: 50vw;
+    width: calc(75vw / 2);
     height: 80vh;
+    border-radius: 5px;
 }
 
 #main-form {
-    text-align: center;
     color: rgb(219, 219, 219);
+    width: calc(75vw / 2);
+    border-radius: 5px;
+    text-align: center;
+    background-color: #111111;
+}
+
+#loginScreenTitle {
+    font-size: 3.5vw;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#first-name-label, #last-name-label, #password-label {
+    font-size: 2vw;
+    padding-top: 5%;
+    padding-top: 5%;
+}
+
+input {
+    background: none;
+    border-style: none;
+    border-bottom: white 2px dashed;
+    color: rgb(219, 219, 219);
+    font-size: 1.5vw;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    width: 75%;
+}
+
+button {
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 2vw;
+    border-radius: 0px;
+    border-style: solid;
+    padding: 2px;
+}
+
+button:hover {
+    background-color: aquamarine;
 }
 
 label, button {
