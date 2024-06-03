@@ -1,76 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Comfortaa', cursive;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Comfortaa", cursive;
 }
 
 body {
-    background: linear-gradient(45deg, #111111, #040550)
+  background: linear-gradient(45deg, #111111, #040550);
 }
 
 #caixa-login {
-    width: 75vw;
-    margin: auto;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    display: flex;
-    flex-direction: row;
+  width: 75vw;
+  margin: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: row;
 }
 
 #foto-principal {
-    width: calc(75vw / 2);
-    height: 80vh;
-    border-radius: 5px;
+  width: calc(75vw / 2);
+  height: 80vh;
+  border-radius: 5px;
 }
 
 #main-form {
-    color: rgb(219, 219, 219);
-    width: calc(75vw / 2);
-    border-radius: 5px;
-    text-align: center;
-    background-color: #111111;
+  color: rgb(219, 219, 219);
+  width: calc(75vw / 2);
+  border-radius: 5px;
+  text-align: center;
+  background-color: #111111;
 }
 
 #loginScreenTitle {
-    font-size: 3.5vw;
-    padding-top: 5%;
-    padding-bottom: 5%;
+  font-size: 3.5vw;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
-#first-name-label, #last-name-label, #password-label {
-    font-size: 2vw;
-    padding-top: 5%;
-    padding-top: 5%;
+#first-name-label,
+#last-name-label,
+#password-label {
+  font-size: 2vw;
+  padding-top: 5%;
+  padding-top: 5%;
 }
 
 input {
-    background: none;
-    border-style: none;
-    border-bottom: white 2px dashed;
-    color: rgb(219, 219, 219);
-    font-size: 1.5vw;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    width: 75%;
+  background: none;
+  border-style: none;
+  border-bottom: white 2px dashed;
+  color: rgb(219, 219, 219);
+  font-size: 1.5vw;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  width: 75%;
 }
 
 button {
-    margin: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    font-size: 2vw;
-    border-radius: 0px;
-    border-style: solid;
-    padding: 2px;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 2vw;
+  border-radius: 0px;
+  border-style: solid;
+  padding: 2px;
 }
 
 button:hover {
-    background-color: aquamarine;
+  background-color: aquamarine;
 }
 
-label, button {
-    display: block;
+label,
+button {
+  display: block;
 }
